@@ -1,10 +1,29 @@
 
 const Header = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <header>
+      <div>
+        {/* Company Logo / Name */}
+        <div>
+          CompanyName
+        </div>
 
-export default Header
+        {/* Navigation Links */}
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        {/* Login Button */}
+        <div>
+          <button>
+            Login
+          </button>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
