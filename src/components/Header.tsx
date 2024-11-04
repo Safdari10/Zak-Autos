@@ -1,26 +1,17 @@
-
 const Header = () => {
   return (
     <header>
-      <div>
+      <div className="flex justify-between items-center p-4 bg-blue-800">
         {/* Company Logo / Name */}
-        <div>
-          CompanyName
-        </div>
+        <div>CompanyName</div>
 
         {/* Navigation Links */}
-        <nav>
+        <nav className="flex justify-between items-center gap-4" >
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
+          <button>Login</button>
         </nav>
-
-        {/* Login Button */}
-        <div>
-          <button>
-            Login
-          </button>
-        </div>
       </div>
     </header>
   );
