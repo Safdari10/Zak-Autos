@@ -1,23 +1,22 @@
-import hero from "../assets/heroImage.png";
+import hero from "../assets/Hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[50vh] flex items-center justify-end bg-yellow-500">
+    <div className="relative w-full h-[80vh] flex items-center justify-end">
       <img
         src={hero}
         alt="hero image"
-        className="object-cover w-[60vw] h-full pr-10"
+        className="object-cover w-full h-full"
       />
-      <div className="absolute inset-0 flex items-start justify-start text-blue-600 p-20">
+      <div className="absolute inset-0 flex items-center justify-start text-white p-20">
         <h1 className="text-6xl font-bold">Welcome to Zak Autos</h1>
       </div>
-      <div  className="absolute inset-0 flex items-end justify-start p-20">
+      <div  className="absolute inset-0 flex items-center justify-center mt-40">
       <input
         type="text"
-        placeholder="Search..."
-        className="bg-white border-solid border-black "
+        className="bg-white w-80 h-14 border-solid "
       />
-      <button type="button" className="bg-blue-600">
+      <button type="button" className="bg-blue-600 p-4">
         Search
       </button>
     </div>
