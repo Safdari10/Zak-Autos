@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="flex justify-between items-center p-4 bg-blue-800 text-white">
+      <div className="flex justify-around items-center p-4 bg-blue-800 text-white ">
         <div className="text-lg font-bold">Zak Autos</div>
 
         {/* Desktop navigation */}
