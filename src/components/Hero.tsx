@@ -1,4 +1,4 @@
-import hero from "../assets/HeroFinal.png";
+import hero from "../assets/HeroFinal2.png";
 
 const Hero = () => {
   return (

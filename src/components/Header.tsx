@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from '../assets/logo4.png'
 
 const Header = () => {
-  const [ismobileMenuOpen, setIsMobileMenuOpen] = useState <Boolean>(false);
+  const [ismobileMenuOpen, setIsMobileMenuOpen] = useState<Boolean>(false);
 
   return (
     <header>

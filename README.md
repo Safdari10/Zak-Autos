@@ -67,6 +67,7 @@ The project is structured as follows:
     ├── assets/             # Contains image assets     like car images, hero image, etc.
     │
     ├── src/
+    │   ├── pages/          # Contains all Main      pages(e.g., Home)
     │   ├── components/     # Contains all React     components (e.g., Hero, VehicleGallery)
     │   ├── App.tsx         # Main application component
     │   ├── index.tsx       # Entry point for React
