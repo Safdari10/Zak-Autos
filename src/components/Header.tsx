@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <div className="flex justify-between items-center p-2 bg-blue-800 text-white ">
 
-        <div className="flex justify-center items-center gap-2 ml-36" >
+        <div className="flex justify-center items-center gap-2 md:ml-36 " >
           <img src={logo} alt="logo" className="w-20 h-14" />
           <div className="text-lg font-bold">ZAK AUTOS</div></div>
 

@@ -3,7 +3,7 @@ import hero from "../assets/HeroFinal.png";
 const Hero = () => {
   return (
     <div
-      className="relative flex flex-col h-[50vh] overflow-hidden bg-cover bg-center"
+      className="relative flex flex-col h-[30vh] md:h-[50vh] overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Full-Section Overlay */}

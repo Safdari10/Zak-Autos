@@ -662,6 +662,10 @@ video {
   height: 3.5rem;
 }
 
+.h-\[30vh\] {
+  height: 30vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -1002,6 +1006,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-36 {
+    margin-left: 9rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1016,6 +1024,10 @@ video {
 
   .md\:h-80 {
     height: 20rem;
+  }
+
+  .md\:h-\[50vh\] {
+    height: 50vh;
   }
 
   .md\:max-h-20 {
