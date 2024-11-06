@@ -12,7 +12,7 @@ const VehicleGallery = () => {
           className="w-full h-56 md:w-[620px] md:h-[420px] object-cover rounded"
         />
         <p className="mt-2 text-lg font-semibold text-white">BMW</p>
-        <p className="text-gray-200">Browse for latest arrivals</p>
+        <p className="text-gray-200 text-xl">Browse for latest arrivals</p>
       </div>
 
       <div className="flex flex-col justify-center items-center w-96 md:w-[650px] p-2 md:p-4 bg-blue-600 rounded-lg shadow-md cursor-pointer transition-transform transform hover:scale-105">
@@ -22,7 +22,7 @@ const VehicleGallery = () => {
           className="w-full h-56 md:w-[620px] md:h-[420px] object-cover rounded"
         />
         <p className="mt-2 text-lg font-semibold text-white">Benz</p>
-        <p className="text-gray-200">Browse for latest arrivals</p>
+        <p className="text-gray-200 text-xl">Browse for latest arrivals</p>
       </div>
 
       <div className="flex flex-col justify-center items-center w-96 md:w-[650px] p-2 md:p-4 bg-blue-600 rounded-lg shadow-md cursor-pointer transition-transform transform hover:scale-105">
@@ -32,7 +32,7 @@ const VehicleGallery = () => {
           className="w-full h-56 md:w-[620px] md:h-[420px] object-cover rounded"
         />
         <p className="mt-2 text-lg font-semibold text-white">Audi</p>
-        <p className="text-gray-200">Browse for latest arrivals</p>
+        <p className="text-gray-200 text-xl">Browse for latest arrivals</p>
       </div>
     </div>
   );

@@ -10,9 +10,9 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10" /> 
 
       {/* Overlay for Text */}
-      <div className="relative flex flex-col justify-center items-center w-full md:w-1/2 p-6 md:p-20 z-20 text-white">
+      <div className="relative flex flex-col justify-center items-center w-full md:w-1/2 p-6 md:p-20 md:mt-20 md:ml-10  z-20 text-white">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Welcome to Zak Autos
+          Welcome to <span className="text-blue-600 shadow-gray-100">ZAK AUTOS</span>
         </h1>
         <p className="text-md md:text-lg mb-4 text-center">
           Find your dream car with us today!
