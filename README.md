@@ -1,50 +1,77 @@
-# React + TypeScript + Vite
+# Zak Autos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Zak Autos** — a car search and display application built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created using **Vite** with React and TypeScript, and styled with **Tailwind CSS**. It provides a user-friendly interface to search for and display cars. The project is hosted on GitHub, making it easy to clone and run on your own device.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React** (via Vite)
+- **TypeScript**
+- **Tailwind CSS**
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Prerequisites
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Node.js** (v14 or higher) and **npm** (v6 or higher) installed on your device
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/Safdari10/Zak-Autos.git
+2. Navigate to the project folder:
+
+     ``` 
+     cd zak-autos
+3. Install dependencies:
+
+    ```
+    npm install
+### Running the Application
+
+To start the development server, run:
+
+    npm run dev
+
+
+This will start the Vite development server, and you can view the application in your browser at 
+http://localhost:5713/
+
+
+### Building for Production
+
+To build the app for production, run:
+
+    npm run build
+
+the optimised production files will be created in the src directory.
+
+### Features
+
+- **Car Search**: Users can search for their dream car using the search bar.
+- **Responsive Design**: Fully responsive layout with Tailwind CSS for optimal experience on mobile and desktop devices.
+-**Dynamic Hero Section**: Engaging hero section with a background image and overlay.
+-**Car Display**: Display images of popular car brands such as BMW, Benz, Audi.
+
+### Project Structure
+
+The project is structured as follows:
+
+    zak-autos/
+    │
+    ├── assets/             # Contains image assets     like car images, hero image, etc.
+    │
+    ├── src/
+    │   ├── components/     # Contains all React     components (e.g., Hero, VehicleGallery)
+    │   ├── App.tsx         # Main application component
+    │   ├── index.tsx       # Entry point for React
+    │   └── tailwind.config.js  # Tailwind CSS     configuration
+    │
+    ├── package.json        # Contains project     dependencies and scripts
+    ├── tsconfig.json       # TypeScript configuration
+    └── README.md           # Project documentation
