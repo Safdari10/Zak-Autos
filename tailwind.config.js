@@ -4,7 +4,12 @@ module.exports = {
     './src/**/*.{html,js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "tall": {"raw": `(min-height: 1080px)` },
+        "taller": {"raw": `(min-height: 2080px)` },
+      },
+    },
   },
   plugins: [],
 };

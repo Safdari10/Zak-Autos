@@ -7,14 +7,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Full-Section Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 z-10" /> 
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
 
       {/* Overlay for Text */}
-      <div className="relative flex flex-col justify-center items-center w-full md:w-1/2 p-6 md:p-20 md:mt-20 md:ml-10  z-20 text-white">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Welcome to <span className="text-blue-600 shadow-gray-100">ZAK AUTOS</span>
+      <div className="relative flex flex-col justify-center items-center w-full md:w-1/2 p-6 md:p-20 md:mt-20 md:ml-10 z-20 text-white">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center">
+          Welcome to <span className="text-white shadow-gray-100">ZAK AUTOS</span>
         </h1>
-        <p className="text-md md:text-lg mb-4 text-center">
+        <p className="text-sm sm:text-md md:text-lg mb-4 text-center">
           Find your dream car with us today!
         </p>
       </div>
