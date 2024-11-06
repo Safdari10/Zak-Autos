@@ -8,12 +8,12 @@ const Header = () => {
     <header>
       <div className="flex justify-between items-center p-2 bg-blue-800 text-white ">
 
-        <div className="flex justify-center items-center gap-2 md:ml-36 " >
+        <div className="flex justify-center items-center gap-2 md:ml-24 " >
           <img src={logo} alt="logo" className="w-20 h-14" />
           <div className="text-lg font-bold">ZAK AUTOS</div></div>
 
         {/* Desktop navigation */}
-        <nav className="hidden md:flex gap-6 mr-36 text-2xl" >
+        <nav className="hidden md:flex gap-6 md:mr-24 text-2xl" >
           <a href="#home" className="p-1 hover:text-gray-300">Home</a>
           <a href="#about" className="p-1 hover:text-gray-300">About</a>
           <a href="#contact" className="p-1 hover:text-gray-300">Contact</a>
