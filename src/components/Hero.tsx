@@ -15,7 +15,7 @@ const Hero = () => {
                     sm:p-8 sm:mb-4
                     md:w-2/3 md:p-16 md:text-center md:mt-8 md:mb-16
                     lg:w-2/3 lg:mt-16 lg:ml-0 lg:mb-6
-                    taller:mt-60 taller:p-20"
+                    taller:mt-60 taller:p-20 taller:mt-32"
       >
         <h1
           className="text-2xl font-bold mb-4 
@@ -40,21 +40,21 @@ const Hero = () => {
       {/* Search Box */}
       <div
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-xs 
-                    flex flex-col items-center justify-center space-y-2
-                    md:max-w-xl md:flex-row md:space-y-0 md:space-x-4 
+                    flex flex-col items-center justify-center
+                    md:max-w-xl md:flex-row 
                     taller:max-w-[1200px] taller:p-10"
       >
         <input
           type="text"
           placeholder="Search for cars..."
-          className="border border-gray-300 rounded-md w-full py-4 px-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 
+          className="border border-gray-300 rounded-l-md w-full py-4 px-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 
                      md:w-[70%] 
-                     taller:h-28 taller:text-4xl taller:w-[1000px]"
+                     taller:h-36 taller:text-4xl taller:w-[1000px]"
         />
         <button
-          className="bg-blue-500 text-white rounded-md w-full py-4 px-6 text-lg hover:bg-blue-600 
+          className="bg-blue-500 text-white rounded-r-md w-full py-4 px-6 text-lg hover:bg-blue-600 
                      md:w-32 md:px-8 
-                     taller:text-4xl taller:w-[200px] taller:h-28"
+                     taller:h-36 taller:text-4xl taller:w-[200px]"
         >
           Search
         </button>
