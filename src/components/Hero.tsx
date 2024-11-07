@@ -4,15 +4,15 @@ const Hero = () => {
   return (
     <div
       className="relative flex flex-col h-[35vh] md:h-[50vh] overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url(${hero})` }}
-    >
+      style={{ backgroundImage: `url(${hero})` }}>
       {/* Full-Section Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
 
       {/* Overlay for Text */}
       <div className="relative flex flex-col justify-center items-center p-6 text-white z-20 w-full md:w-1/2 md:p-20 md:mt-20 md:ml-10">
         <h1 className="text-2xl font-bold text-center mb-4 sm:text-3xl md:text-4xl taller:text-6xl">
-          Welcome to <span className="text-white shadow-gray-100">ZAK AUTOS</span>
+          Welcome to{" "}
+          <span className="text-white shadow-gray-100">ZAK AUTOS</span>
         </h1>
         <p className="text-sm text-center mb-4 sm:text-md md:text-lg taller:text-4xl">
           Find your dream car with us today!

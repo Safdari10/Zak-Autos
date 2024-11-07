@@ -1,37 +1,45 @@
 import { useState } from "react";
-import logo from '../assets/logo4.png'
+import logo from "../assets/logo4.png";
 
 const Header = () => {
-  const [ismobileMenuOpen, setIsMobileMenuOpen] = useState<Boolean>(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<Boolean>(false);
 
   return (
     <header>
-      <div className="flex justify-between items-center p-2 bg-blue-800 text-white ">
-
-        <div className="flex justify-center items-center gap-2 md:ml-24 " >
+      {/* Main Header Section */}
+      <div className="flex justify-between items-center p-2 bg-blue-800 text-white">
+        {/* Logo and Title */}
+        <div className="flex items-center gap-2">
           <img src={logo} alt="logo" className="w-20 h-14" />
-          <div className="text-lg font-bold">ZAK AUTOS</div></div>
+          <div className="text-lg font-bold">ZAK AUTOS</div>
+        </div>
 
-        {/* Desktop navigation */}
-        <nav className="hidden md:flex gap-6 md:mr-24 text-2xl" >
-          <a href="#home" className="p-1 hover:text-gray-300">Home</a>
-          <a href="#about" className="p-1 hover:text-gray-300">About</a>
-          <a href="#contact" className="p-1 hover:text-gray-300">Contact</a>
-          <button className="border-solid border-2 border-white rounded-lg w-28 p-1 hover:text-blue-800 hover:bg-white ">Login</button>
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex gap-6 text-2xl md:mr-24">
+          <a href="#home" className="p-1 hover:text-gray-300">
+            Home
+          </a>
+          <a href="#about" className="p-1 hover:text-gray-300">
+            About
+          </a>
+          <a href="#contact" className="p-1 hover:text-gray-300">
+            Contact
+          </a>
+          <button className="border-2 border-white rounded-lg w-28 p-1 hover:bg-white hover:text-blue-800">
+            Login
+          </button>
         </nav>
 
-        {/* Mobile menu button */}
+        {/* Mobile Menu Button */}
         <button
-          onClick={() => setIsMobileMenuOpen(!ismobileMenuOpen)}
-          className="md:hidden focus:outline-none"
-        >
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="md:hidden focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -42,12 +50,18 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile navigation menu */}
-      {ismobileMenuOpen && (
-        <nav className="md:hidden bg-blue-700 text-white flex flex-col items-center space-y-2 py-4">
-          <a href="#home" className="hover:text-gray-300">Home</a>
-          <a href="#about" className="hover:text-gray-300">About</a>
-          <a href="#contact" className="hover:text-gray-300">Contact</a>
+      {/* Mobile Navigation Menu */}
+      {isMobileMenuOpen && (
+        <nav className="md:hidden bg-blue-700 text-white flex flex-col items-center py-4 space-y-2">
+          <a href="#home" className="hover:text-gray-300">
+            Home
+          </a>
+          <a href="#about" className="hover:text-gray-300">
+            About
+          </a>
+          <a href="#contact" className="hover:text-gray-300">
+            Contact
+          </a>
           <button className="hover:text-gray-300">Login</button>
         </nav>
       )}
