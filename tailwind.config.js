@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "tall": {"raw": `(min-height: 1080px)` },
         "taller": {"raw": `(min-height: 2080px)` },
       },
     },
