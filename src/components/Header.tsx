@@ -5,7 +5,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="md:sticky">
+    <header className="sticky top-0 z-50">
       {/* Main Header Section */}
       <div className="flex justify-between items-center p-1 bg-blue-800 text-white taller:h-28">
         {/* Logo and Title */}
