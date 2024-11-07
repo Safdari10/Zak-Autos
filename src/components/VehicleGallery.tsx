@@ -5,7 +5,7 @@ import benz from "../assets/benz.png";
 const VehicleGallery = () => {
   return (
     <div
-      className="flex justify-center items-center gap-4 bg-blue-800 p-4 flex-wrap 
+      className="flex justify-center items-center gap-5 bg-blue-800 p-4 flex-wrap 
                   sm:gap-6 sm:p-6 
                   md:gap-8 md:p-12 
                   lg:gap-12 lg:p-16
