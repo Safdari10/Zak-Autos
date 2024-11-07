@@ -11,11 +11,11 @@ const Hero = () => {
 
       {/* Overlay for Text */}
       <div
-        className="relative flex flex-col justify-center items-center text-white z-20 p-6
+        className="relative flex flex-col justify-center items-start text-white z-20 p-6
                     sm:p-8 sm:mb-4
                     md:w-2/3 md:p-16 md:text-center md:mt-8 md:mb-16
-                    lg:w-2/3 lg:mt-16 lg:ml-0 lg:mb-6
-                    taller:mt-60 taller:p-20 taller:mt-32"
+                    lg:w-2/3 lg:mt-16 lg:ml-40 lg:mb-6
+                    taller:mt-64 taller:py-20 taller:pr-24 taller:ml-96"
       >
         <h1
           className="text-2xl font-bold mb-4 
@@ -25,7 +25,7 @@ const Hero = () => {
                      taller:text-8xl 
                      whitespace-nowrap"
         >
-          welcome to ZAK AUTOS
+          Welcome to ZAK AUTOS
         </h1>
         <p
           className="text-sm mb-4 
@@ -40,8 +40,8 @@ const Hero = () => {
       {/* Search Box */}
       <div
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-xs 
-                    flex flex-col items-center justify-center
-                    md:max-w-xl md:flex-row 
+                    flex flex-col items-center justify-center gap-2
+                    md:max-w-xl md:flex-row md:gap-0
                     taller:max-w-[1200px] taller:p-10"
       >
         <input
