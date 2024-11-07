@@ -19,9 +19,9 @@ const VehicleGallery = () => {
           src={bmw}
           alt="BMW"
           className="w-full h-[70%] object-cover rounded 
-                     sm:h-[60%] 
-                     md:h-[80%] 
-                     lg:h-[90%]"
+                     sm:h-[55%] 
+                     md:h-[70%] 
+                     lg:h-[80%]"
         />
         <p
           className="mt-1 text-lg font-semibold text-white 
@@ -45,9 +45,9 @@ const VehicleGallery = () => {
           src={benz}
           alt="Benz"
           className="w-full h-[70%] object-cover rounded 
-                     sm:h-[60%] 
-                     md:h-[80%] 
-                     lg:h-[90%]"
+                     sm:h-[55%] 
+                     md:h-[70%] 
+                     lg:h-[80%]"
         />
         <p
           className="mt-1 text-lg font-semibold text-white 
@@ -71,9 +71,9 @@ const VehicleGallery = () => {
           src={audi}
           alt="Audi"
           className="w-full h-[70%] object-cover rounded 
-                     sm:h-[60%] 
-                     md:h-[80%] 
-                     lg:h-[90%]"
+                     sm:h-[55%] 
+                     md:h-[70%] 
+                     lg:h-[80%]"
         />
         <p
           className="mt-1 text-lg font-semibold text-white 
