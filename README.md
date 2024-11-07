@@ -42,6 +42,10 @@ To start the development server, run:
 This will start the Vite development server, and you can view the application in your browser at 
 http://localhost:5713/
 
+### Running the tailwind CSS in Watch Mode
+To keep Tailwind CSS updated as you style:
+
+      npm run build-css
 
 ### Building for Production
 
@@ -76,3 +80,7 @@ The project is structured as follows:
     ├── package.json        # Contains project     dependencies and scripts
     ├── tsconfig.json       # TypeScript configuration
     └── README.md           # Project documentation
+
+### Usage
+
+You are free to use, modify, and distribute it as you wish. Contributions are welcome, Feel free to create a pull request or open an issue if you have suggestion for imporovements.
