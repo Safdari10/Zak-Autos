@@ -3,7 +3,7 @@ import hero from "../assets/HeroFinal2.png";
 const Hero = () => {
   return (
     <div
-      className="relative flex flex-col h-[35vh] md:h-[100%] lg:h-[45vh] overflow-hidden bg-cover bg-center"
+      className="relative flex flex-col h-[35vh] md:h-[100%] lg:h-[45vh] overflow-hidden bg-cover bg-center bg-gray-800"
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Full-Section Overlay */}
@@ -42,21 +42,27 @@ const Hero = () => {
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-xs 
                     flex flex-col items-center justify-center gap-2
                     md:max-w-xl md:flex-row md:gap-0 md:mb-5
-                    taller:max-w-[1200px] taller:p-10"
+                    lg:max-w-3xl
+                    taller:max-w-[2000px] taller:p-10"
       >
         <input
           type="text"
           placeholder="Search for cars..."
-          className="border border-gray-300 rounded-l-md w-full py-4 px-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 
-                     md:w-[70%] 
-                     taller:h-36 taller:text-4xl taller:w-[1000px]"
+          aria-label="Search for cars"
+          className="border border-gray-300 w-full py-4 px-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 
+                     sm:rounded-none
+                     md:rounded-l-md md:w-[70%]
+                     lg:w-[75%]
+                     taller:h-36 taller:text-5xl taller:w-[80%] taller:px-24"
         />
         <button
-          className="bg-blue-500 text-white rounded-r-md w-full py-4 px-6 text-lg hover:bg-blue-600 
-                     md:w-32 md:px-8 
-                     taller:h-36 taller:text-4xl taller:w-[200px]"
+          aria-label="Search button"
+          className="bg-blue-500 text-white w-full py-4 px-6 text-lg hover:bg-blue-600
+                     md:rounded-r-md md:w-32 
+                     lg:w-1/4 lg:px-10
+                     taller:h-36 taller:text-5xl taller:w-[20%] taller:px-32"
         >
-          Search
+          SEARCH
         </button>
       </div>
     </div>

@@ -7,15 +7,15 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50">
       {/* Main Header Section */}
-      <div className="flex justify-between items-center p-1 bg-blue-800 text-white taller:h-28">
+      <div className="flex justify-between items-center p-1 bg-blue-800 text-white md:p-3 taller:p-7">
         {/* Logo and Title */}
-        <div className="flex items-center gap-2 md:ml-16 lg:ml-24">
+        <div className="flex items-center gap-2 md:ml-14 lg:ml-16 taller:ml-20">
           <img src={logo} alt="logo" className="w-20 h-14 taller:w-32 taller:h-24" />
           <div className="text-2xl font-bold taller:text-5xl">ZAK AUTOS</div>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6 text-lg md:mr-16 lg:mr-24 taller:text-5xl">
+        <nav className="hidden md:flex gap-6 text-lg md:mr-14 lg:mr-16 taller:mr-20 taller:text-5xl">
           <a href="#home" className="p-1 hover:text-gray-300 taller:mt-1">
             Home
           </a>
