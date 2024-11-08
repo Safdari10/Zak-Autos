@@ -13,7 +13,7 @@ const Hero = () => {
       <div
         className="relative flex flex-col justify-center items-start text-white z-20 p-6
                     sm:p-8 sm:mb-4
-                    md:w-2/3 md:p-16 md:text-center md:mt-8 md:mb-16
+                    md:w-2/3 md:p-16 md:text-center md:mt-4 md:mb-20
                     lg:w-2/3 lg:mt-16 lg:ml-40 lg:mb-6
                     taller:mt-64 taller:py-20 taller:pr-24 taller:ml-96"
       >
