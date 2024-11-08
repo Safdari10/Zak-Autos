@@ -25,7 +25,7 @@ const Header = () => {
           <a href="#contact" className="p-1 hover:text-gray-300 taller:mt-1">
             Contact
           </a>
-          <button className="border-2 border-white rounded-lg w-fit p-1 hover:bg-white hover:text-blue-800 taller:p-3 taller:w-fit taller:mb-2">
+          <button className="border-2 border-white rounded-lg w-fit py-1 px-3 hover:bg-white hover:text-blue-800 taller:p-3 taller:w-fit taller:mb-2">
             Login
           </button>
         </nav>
