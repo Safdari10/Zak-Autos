@@ -3,7 +3,7 @@ import hero from "../assets/HeroFinal2.png";
 const Hero = () => {
   return (
     <div
-      className="relative flex flex-col h-[35vh] md:h-[100%] lg:h-[50vh] overflow-hidden bg-cover bg-center"
+      className="relative flex flex-col h-[35vh] md:h-[100%] lg:h-[45vh] overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Full-Section Overlay */}
@@ -41,7 +41,7 @@ const Hero = () => {
       <div
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-xs 
                     flex flex-col items-center justify-center gap-2
-                    md:max-w-xl md:flex-row md:gap-0
+                    md:max-w-xl md:flex-row md:gap-0 md:mb-5
                     taller:max-w-[1200px] taller:p-10"
       >
         <input

@@ -8,8 +8,8 @@ const VehicleGallery = () => {
       className="flex justify-center items-center gap-5 bg-blue-800 p-4 flex-wrap 
                   sm:gap-6 sm:p-6 
                   md:gap-8 md:p-12 
-                  lg:gap-12 lg:p-16
-                  taller:gap-20 taller:px-20">
+                  lg:gap-32 lg:p-16
+                  taller:gap-64 taller:px-20 taller:py-28">
       
       {/* Gallery item for BMW */}
       <div
