@@ -18,9 +18,9 @@ const Hero = () => {
                     taller:mt-64 taller:py-20 taller:pr-24 taller:ml-96"
       >
         <h1
-          className="text-2xl font-bold mb-4 
-                     sm:text-3xl
-                     md:text-4xl 
+          className="text-xl font-bold mb-4 
+                     sm:text-2xl
+                     md:text-3xl
                      lg:text-5xl
                      taller:text-8xl 
                      whitespace-nowrap"
@@ -28,7 +28,7 @@ const Hero = () => {
           Welcome to ZAK AUTOS
         </h1>
         <p
-          className="text-sm mb-4 
+          className="text-base mb-4 
                      sm:text-md
                      md:text-2xl md:mt-2 
                      taller:text-6xl taller:mb-8"
