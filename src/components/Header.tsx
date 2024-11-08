@@ -9,7 +9,7 @@ const Header = () => {
       {/* Main Header Section */}
       <div className="flex justify-between items-center p-1 bg-blue-800 text-white md:p-3 taller:p-10">
         {/* Logo and Title */}
-        <div className="flex items-center gap-2 md:ml-14 lg:ml-16 taller:ml-20">
+        <div className="flex items-center gap-2 cursor-pointer md:ml-14 lg:ml-16 taller:ml-20">
           <img src={logo} alt="logo" className="w-20 h-14 taller:w-32 taller:h-24" />
           <div className="sm:text-lg md:text-2xl font-bold taller:text-5xl">ZAK AUTOS</div>
         </div>
