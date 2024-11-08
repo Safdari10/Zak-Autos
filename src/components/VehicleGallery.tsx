@@ -33,7 +33,7 @@ const VehicleGallery = () => {
         </p>
         <p
           className="text-gray-200 text-base md:text-lg 
-                     taller:text-3xl">
+                     taller:text-4xl">
           Browse for latest arrivals
         </p>
       </div>
@@ -60,7 +60,7 @@ const VehicleGallery = () => {
         </p>
         <p
           className="text-gray-200 text-base md:text-lg 
-                     taller:text-3xl">
+                     taller:text-4xl">
           Browse for latest arrivals
         </p>
       </div>
@@ -87,7 +87,7 @@ const VehicleGallery = () => {
         </p>
         <p
           className="text-gray-200 text-base md:text-lg 
-                     taller:text-3xl">
+                     taller:text-4xl">
           Browse for latest arrivals
         </p>
       </div>
